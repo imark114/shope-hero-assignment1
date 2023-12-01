@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Montserrat:wght@400;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background: #1A187A !important;
+}
+
+.nav_logo{
+    width: 200px;
+}
+.banner{
+    background: url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shop_btn{
+    background: #171495;
+    color: white;
+    padding: 16px 50px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.product_detail{
+    font-size: 24px;
+}
+.product_detail h1{
+    font-size: 90px;
+    color: black;
+    margin: 24px 0;
+}
+.product_detail h1 span{
+    font-weight: 700;
+}
+.airpods{
+    background: #ADC2D7;
+    border-radius: 10px;
+    
+}
+.airpods img{
+    height: 400px;
+    width: auto;
+}
+.ipad img{
+    height: 400px;
+    width: auto;
+}
+.ipad_detail h3{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+.mack_area{
+    background: #EDEDED;
+    padding: 0 30px;
+}
+.mack_detail button{
+    font-weight: 400;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.mack_detail button:hover{
+    color: black;
+    border:  2px solid #171495;
+}
+.products{
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.catagory h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.prdct_card{
+    background: #F6F6F6;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+.prdct_card img{
+    align-self: flex-end;
+}
+.card_btn{
+    padding: 16px 46px;
+}
+.offer_section{
+    background: #958AD4;
+    padding: 65px 0;
+}
+.offer_heading{
+    font-size: 60px;
+    font-weight: 900;
+}
+.offer_heading span{
+    color: #25177B;
+}
+
+footer{
+    background-color: #0E071B;
+}
+.footer-icons{
+    align-self: auto;
+    height: 30px;
+}
+@media (max-width: 600px) {
+    .fotter-area{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .footer-icons{
+        order: 1;
+    }
+  }
